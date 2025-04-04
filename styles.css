@@ -5,9 +5,8 @@
     border: 15px solid blue;     /* Border */
     padding: 50px;               /* Padding */
     margin: 20px;                /* Margin */
-    font-size: 16px;             /* Text size */
-    font-family: Arial, sans-serif; /* Font */
+    font-size: 16px;             /* Standard text size */
+    font-family: Arial, sans-serif; /* Consistent font */
     text-align: center;          /* Center align text */
-    display: block;              /* Ensures proper box rendering */
-    box-sizing: border-box;      /* Prevents expansion beyond 300px */
+    box-sizing: border-box;      /* Ensures box stays 300px wide including border */
 }
