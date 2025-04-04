@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+/* Applying styles to the box */
+.box {
+    width: 300px;               /* Width of the box */
+    background-color: lightblue; /* Background color */
+    border: 15px solid blue;     /* Solid blue border with 15px thickness */
+    padding: 50px;               /* Padding inside the box */
+    margin: 20px;                /* Margin around the box */
+    text-align: center;          /* Centering the text */
+    font-size: 16px;             /* Readable font size */
+    font-family: Arial, sans-serif; /* Ensuring better readability */
+}
