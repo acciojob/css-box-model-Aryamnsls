@@ -1,11 +1,12 @@
 /* Applying styles to the box */
 .box {
-    width: 300px;               /* Width of the box */
-    background-color: lightblue; /* Background color */
-    border: 15px solid blue;     /* Solid blue border with 15px thickness */
+    width: 300px;               /* Fixed width */
+    background-color: lightblue; /* Set background color */
+    border: 15px solid blue;     /* Blue border */
     padding: 50px;               /* Padding inside the box */
     margin: 20px;                /* Margin around the box */
-    text-align: center;          /* Centering the text */
-    font-size: 16px;             /* Readable font size */
-    font-family: Arial, sans-serif; /* Ensuring better readability */
+    text-align: center;          /* Center-align text */
+    font-size: 16px;             /* Proper font size */
+    font-family: Arial, sans-serif; /* Set font */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
 }
